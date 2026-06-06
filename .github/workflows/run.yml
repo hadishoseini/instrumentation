@@ -37,9 +37,9 @@ jobs:
 
       - name: 🤖 Run Job Search Bot
         env:
-          RAPIDAPI_KEY:        ${{ secrets.RAPIDAPI_KEY }}
-          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+          RAPIDAPI_KEY:        ${{ secrets.6e98b3e19fmshbe9214fdee2b8dbp1b13d3jsn324012f89ca8}}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.AAEUb8BGVn9s5yuWE050Rm2rX1g3Nq8g9nc }}
+          TELEGRAM_CHAT_ID:    ${{ secrets.83417067 }}
           GSHEET_CREDENTIALS:  ${{ secrets.GSHEET_CREDENTIALS }}
           GSHEET_ID:           ${{ secrets.GSHEET_ID }}
         run: python bot.py
